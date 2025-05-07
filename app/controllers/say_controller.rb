@@ -35,6 +35,9 @@ class SayController < ApplicationController
     # @rack_env = ENV['RACK_ENV']
     # @rails_env = ENV['RAILS_ENV']
     
+    x = 5+2
+    puts x
+
     env = {}
     # loop to parse all JSON object
     # @env is available in the view: views/say/hello.html.erb

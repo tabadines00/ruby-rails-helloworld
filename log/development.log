@@ -1,0 +1,167 @@
+DEPRECATION WARNING: `secrets.secret_token` is deprecated in favor of `secret_key_base` and will be removed in Rails 6.0. (called from <top (required)> at /app/config/environment.rb:5)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.0. (called from block in <top (required)> at /app/config/routes.rb:12)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.0. (called from block in <top (required)> at /app/config/routes.rb:12)
+DEPRECATION WARNING: Using `Rails::Application` subclass to start the server is deprecated and will be removed in Rails 6.0. Please change `run RailsStarter::Application` to `run Rails.application` in config.ru. (called from require at script/rails:6)
+Started GET "/" for 172.18.0.1 at 2025-05-05 00:21:46 +0000
+Processing by SayController#hello as HTML
+  Rendering say/hello.html.erb within layouts/application
+  Rendered say/hello.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 259ms (Views: 251.7ms)
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 172.18.0.1 at 2025-05-05 00:21:47 +0000
+Started GET "/assets/jquery_ujs.self-a6375ab2b275439c922ac52b02a475d288976458aa11a6e8103c925ef2961f66.js?body=1" for 172.18.0.1 at 2025-05-05 00:21:47 +0000
+Started GET "/assets/application.self-763edc40ac487adacabb9d8ff726cd3e8d38c640ad7af95ff25fde0f4dbdfe7c.js?body=1" for 172.18.0.1 at 2025-05-05 00:21:47 +0000
+Started GET "/assets/newapp-icon.png" for 172.18.0.1 at 2025-05-05 00:21:47 +0000
+DEPRECATION WARNING: `secrets.secret_token` is deprecated in favor of `secret_key_base` and will be removed in Rails 6.0. (called from <top (required)> at /app/config/environment.rb:5)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.0. (called from block in <top (required)> at /app/config/routes.rb:12)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.0. (called from block in <top (required)> at /app/config/routes.rb:12)
+DEPRECATION WARNING: Using `Rails::Application` subclass to start the server is deprecated and will be removed in Rails 6.0. Please change `run RailsStarter::Application` to `run Rails.application` in config.ru. (called from require at script/rails:6)
+Started GET "/" for 172.18.0.1 at 2025-05-05 00:25:33 +0000
+Processing by SayController#hello as HTML
+  Rendering say/hello.html.erb within layouts/application
+  Rendered say/hello.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 166ms (Views: 157.4ms)
+
+
+Started GET "/assets/newapp-icon.png" for 172.18.0.1 at 2025-05-05 00:25:33 +0000
+Started GET "/" for 172.18.0.1 at 2025-05-05 00:25:47 +0000
+Processing by SayController#hello as HTML
+  Rendering say/hello.html.erb within layouts/application
+  Rendered say/hello.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 41ms (Views: 34.2ms)
+
+
+Started GET "/" for 172.18.0.1 at 2025-05-05 00:38:08 +0000
+Processing by SayController#hello as HTML
+  Rendering say/hello.html.erb within layouts/application
+  Rendered say/hello.html.erb within layouts/application (14.8ms)
+Completed 200 OK in 165ms (Views: 135.0ms)
+
+
+Started GET "/" for 172.18.0.1 at 2025-05-05 00:38:47 +0000
+Processing by SayController#hello as HTML
+  Rendering say/hello.html.erb within layouts/application
+  Rendered say/hello.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 226ms (Views: 217.3ms)
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 172.18.0.1 at 2025-05-05 00:38:47 +0000
+Started GET "/assets/application.self-763edc40ac487adacabb9d8ff726cd3e8d38c640ad7af95ff25fde0f4dbdfe7c.js?body=1" for 172.18.0.1 at 2025-05-05 00:38:47 +0000
+Started GET "/assets/jquery_ujs.self-a6375ab2b275439c922ac52b02a475d288976458aa11a6e8103c925ef2961f66.js?body=1" for 172.18.0.1 at 2025-05-05 00:38:47 +0000
+Started GET "/" for 172.18.0.1 at 2025-05-05 00:39:22 +0000
+Processing by SayController#hello as HTML
+  Rendering say/hello.html.erb within layouts/application
+  Rendered say/hello.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 28ms (Views: 23.3ms)
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 172.18.0.1 at 2025-05-05 00:39:22 +0000
+Started GET "/assets/application.self-763edc40ac487adacabb9d8ff726cd3e8d38c640ad7af95ff25fde0f4dbdfe7c.js?body=1" for 172.18.0.1 at 2025-05-05 00:39:22 +0000
+Started GET "/assets/jquery_ujs.self-a6375ab2b275439c922ac52b02a475d288976458aa11a6e8103c925ef2961f66.js?body=1" for 172.18.0.1 at 2025-05-05 00:39:22 +0000
+Started GET "/" for 172.18.0.1 at 2025-05-05 00:39:36 +0000
+Processing by SayController#hello as HTML
+  Rendering say/hello.html.erb within layouts/application
+  Rendered say/hello.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 131ms (Views: 124.5ms)
+
+
+Started GET "/assets/jquery_ujs.self-a6375ab2b275439c922ac52b02a475d288976458aa11a6e8103c925ef2961f66.js?body=1" for 172.18.0.1 at 2025-05-05 00:39:36 +0000
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 172.18.0.1 at 2025-05-05 00:39:36 +0000
+Started GET "/assets/application.self-763edc40ac487adacabb9d8ff726cd3e8d38c640ad7af95ff25fde0f4dbdfe7c.js?body=1" for 172.18.0.1 at 2025-05-05 00:39:36 +0000
+Started GET "/" for 172.18.0.1 at 2025-05-05 00:44:02 +0000
+Processing by SayController#hello as HTML
+  Rendering say/hello.html.erb within layouts/application
+  Rendered say/hello.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 109ms (Views: 94.6ms)
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 172.18.0.1 at 2025-05-05 00:44:02 +0000
+Started GET "/assets/jquery_ujs.self-a6375ab2b275439c922ac52b02a475d288976458aa11a6e8103c925ef2961f66.js?body=1" for 172.18.0.1 at 2025-05-05 00:44:02 +0000
+Started GET "/assets/application.self-763edc40ac487adacabb9d8ff726cd3e8d38c640ad7af95ff25fde0f4dbdfe7c.js?body=1" for 172.18.0.1 at 2025-05-05 00:44:02 +0000
+Started GET "/" for 172.18.0.1 at 2025-05-05 00:44:17 +0000
+Processing by SayController#hello as HTML
+  Rendering say/hello.html.erb within layouts/application
+  Rendered say/hello.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 31ms (Views: 25.9ms)
+
+
+Started GET "/assets/jquery_ujs.self-a6375ab2b275439c922ac52b02a475d288976458aa11a6e8103c925ef2961f66.js?body=1" for 172.18.0.1 at 2025-05-05 00:44:17 +0000
+Started GET "/assets/application.self-763edc40ac487adacabb9d8ff726cd3e8d38c640ad7af95ff25fde0f4dbdfe7c.js?body=1" for 172.18.0.1 at 2025-05-05 00:44:17 +0000
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 172.18.0.1 at 2025-05-05 00:44:17 +0000
+DEPRECATION WARNING: `secrets.secret_token` is deprecated in favor of `secret_key_base` and will be removed in Rails 6.0. (called from <top (required)> at /app/config/environment.rb:5)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.0. (called from block in <top (required)> at /app/config/routes.rb:12)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.0. (called from block in <top (required)> at /app/config/routes.rb:12)
+DEPRECATION WARNING: Using `Rails::Application` subclass to start the server is deprecated and will be removed in Rails 6.0. Please change `run RailsStarter::Application` to `run Rails.application` in config.ru. (called from require at script/rails:6)
+DEPRECATION WARNING: `secrets.secret_token` is deprecated in favor of `secret_key_base` and will be removed in Rails 6.0. (called from <top (required)> at /app/config/environment.rb:5)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.0. (called from block in <top (required)> at /app/config/routes.rb:12)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.0. (called from block in <top (required)> at /app/config/routes.rb:12)
+DEPRECATION WARNING: Using `Rails::Application` subclass to start the server is deprecated and will be removed in Rails 6.0. Please change `run RailsStarter::Application` to `run Rails.application` in config.ru. (called from require at script/rails:6)
+DEPRECATION WARNING: `secrets.secret_token` is deprecated in favor of `secret_key_base` and will be removed in Rails 6.0. (called from <top (required)> at /app/config/environment.rb:5)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.0. (called from block in <top (required)> at /app/config/routes.rb:12)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.0. (called from block in <top (required)> at /app/config/routes.rb:12)
+DEPRECATION WARNING: Using `Rails::Application` subclass to start the server is deprecated and will be removed in Rails 6.0. Please change `run RailsStarter::Application` to `run Rails.application` in config.ru. (called from require at script/rails:6)
+Started GET "/" for 172.18.0.1 at 2025-05-05 04:24:11 +0000
+Processing by SayController#hello as HTML
+  Rendering say/hello.html.erb within layouts/application
+  Rendered say/hello.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 222ms (Views: 212.5ms)
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 172.18.0.1 at 2025-05-05 04:24:11 +0000
+Started GET "/assets/jquery_ujs.self-a6375ab2b275439c922ac52b02a475d288976458aa11a6e8103c925ef2961f66.js?body=1" for 172.18.0.1 at 2025-05-05 04:24:11 +0000
+Started GET "/assets/application.self-763edc40ac487adacabb9d8ff726cd3e8d38c640ad7af95ff25fde0f4dbdfe7c.js?body=1" for 172.18.0.1 at 2025-05-05 04:24:11 +0000
+Started GET "/" for 172.18.0.1 at 2025-05-05 04:24:20 +0000
+Processing by SayController#hello as HTML
+  Rendering say/hello.html.erb within layouts/application
+  Rendered say/hello.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 45ms (Views: 39.0ms)
+
+
+Started GET "/assets/jquery_ujs.self-a6375ab2b275439c922ac52b02a475d288976458aa11a6e8103c925ef2961f66.js?body=1" for 172.18.0.1 at 2025-05-05 04:24:21 +0000
+Started GET "/assets/application.self-763edc40ac487adacabb9d8ff726cd3e8d38c640ad7af95ff25fde0f4dbdfe7c.js?body=1" for 172.18.0.1 at 2025-05-05 04:24:21 +0000
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 172.18.0.1 at 2025-05-05 04:24:21 +0000
+Started GET "/" for 172.18.0.1 at 2025-05-05 04:29:22 +0000
+Processing by SayController#hello as HTML
+  Rendering say/hello.html.erb within layouts/application
+  Rendered say/hello.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 54ms (Views: 47.3ms)
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 172.18.0.1 at 2025-05-05 04:29:22 +0000
+Started GET "/assets/jquery_ujs.self-a6375ab2b275439c922ac52b02a475d288976458aa11a6e8103c925ef2961f66.js?body=1" for 172.18.0.1 at 2025-05-05 04:29:22 +0000
+Started GET "/assets/application.self-763edc40ac487adacabb9d8ff726cd3e8d38c640ad7af95ff25fde0f4dbdfe7c.js?body=1" for 172.18.0.1 at 2025-05-05 04:29:22 +0000
+DEPRECATION WARNING: `secrets.secret_token` is deprecated in favor of `secret_key_base` and will be removed in Rails 6.0. (called from <top (required)> at /app/config/environment.rb:5)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.0. (called from block in <top (required)> at /app/config/routes.rb:12)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.0. (called from block in <top (required)> at /app/config/routes.rb:12)
+DEPRECATION WARNING: Using `Rails::Application` subclass to start the server is deprecated and will be removed in Rails 6.0. Please change `run RailsStarter::Application` to `run Rails.application` in config.ru. (called from require at script/rails:6)
+DEPRECATION WARNING: `secrets.secret_token` is deprecated in favor of `secret_key_base` and will be removed in Rails 6.0. (called from <top (required)> at /app/config/environment.rb:5)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.0. (called from block in <top (required)> at /app/config/routes.rb:12)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.0. (called from block in <top (required)> at /app/config/routes.rb:12)
+DEPRECATION WARNING: Using `Rails::Application` subclass to start the server is deprecated and will be removed in Rails 6.0. Please change `run RailsStarter::Application` to `run Rails.application` in config.ru. (called from require at script/rails:6)
+DEPRECATION WARNING: `secrets.secret_token` is deprecated in favor of `secret_key_base` and will be removed in Rails 6.0. (called from <top (required)> at /app/config/environment.rb:5)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.0. (called from block in <top (required)> at /app/config/routes.rb:12)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.0. (called from block in <top (required)> at /app/config/routes.rb:12)
+DEPRECATION WARNING: Using `Rails::Application` subclass to start the server is deprecated and will be removed in Rails 6.0. Please change `run RailsStarter::Application` to `run Rails.application` in config.ru. (called from require at script/rails:6)
+DEPRECATION WARNING: `secrets.secret_token` is deprecated in favor of `secret_key_base` and will be removed in Rails 6.0. (called from <top (required)> at /app/config/environment.rb:5)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.0. (called from block in <top (required)> at /app/config/routes.rb:12)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.0. (called from block in <top (required)> at /app/config/routes.rb:12)
+DEPRECATION WARNING: Using `Rails::Application` subclass to start the server is deprecated and will be removed in Rails 6.0. Please change `run RailsStarter::Application` to `run Rails.application` in config.ru. (called from require at script/rails:6)
+DEPRECATION WARNING: `secrets.secret_token` is deprecated in favor of `secret_key_base` and will be removed in Rails 6.0. (called from <top (required)> at /app/config/environment.rb:5)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 6.0. (called from block in <top (required)> at /app/config/routes.rb:12)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.0. (called from block in <top (required)> at /app/config/routes.rb:12)
+DEPRECATION WARNING: Using `Rails::Application` subclass to start the server is deprecated and will be removed in Rails 6.0. Please change `run RailsStarter::Application` to `run Rails.application` in config.ru. (called from require at script/rails:6)
+Started GET "/say/hello" for 172.18.0.1 at 2025-05-07 04:56:20 +0000
+Processing by SayController#hello as HTML
+  Rendering say/hello.html.erb within layouts/application
+  Rendered say/hello.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 213ms (Views: 204.3ms)
+
+
+Started GET "/say/hello" for 172.18.0.1 at 2025-05-07 04:57:36 +0000
+Processing by SayController#hello as HTML
+  Rendering say/hello.html.erb within layouts/application
+  Rendered say/hello.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 28ms (Views: 21.9ms)
+
+
