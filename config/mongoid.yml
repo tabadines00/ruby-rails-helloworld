@@ -1,0 +1,13 @@
+development:
+  clients:
+    default:
+      database: main_test
+      hosts:
+        - host.docker.internal:27017
+      options:
+
+
+  # Configure Mongoid specific options. (optional)
+  options:
+    use_utc: true
+    belongs_to_required_by_default: false

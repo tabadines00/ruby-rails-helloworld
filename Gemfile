@@ -87,7 +87,7 @@ gem 'spreadsheet'                        # upgraded, ensure this works correctly
 
 #gem 'axlsx', '3.0.0.pre'                 # upgraded from '2.0.1', ensure this works correctly!!
 gem 'caxlsx_rails'
-gem 'secure_headers'
+# gem 'secure_headers'
 
 group :assets do
   gem 'coffee-rails', '~> 4.2'
